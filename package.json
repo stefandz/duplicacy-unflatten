@@ -1,0 +1,25 @@
+{
+  "name": "duplicacy-unflatten",
+  "version": "1.0.0",
+  "description": "Unflattens files downloaded as a snapshot from the cloud for restoration with Duplicacy (if restore direct from cloud isn't working)",
+  "main": "duplicacy-unflatten.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stefandz/duplicacy-unflatten.git"
+  },
+  "keywords": [
+    "duplicacy"
+  ],
+  "author": "Stefan Dzisiewski-Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefandz/duplicacy-unflatten/issues"
+  },
+  "homepage": "https://github.com/stefandz/duplicacy-unflatten#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
